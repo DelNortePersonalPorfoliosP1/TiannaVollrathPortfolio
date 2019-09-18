@@ -11,7 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    int main()
+    int main();
     
         double Xvalue,Yvalue,Zvalue ;
         //message
