@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
         printf("Enter Xvalue");
         scanf("%1lf", &Xvalue);
         printf("Enter Yvalue");
-        scanf("%1lf", Yvalue);
+        scanf("%1lf", &Yvalue);
         Zvalue = (Xvalue*Xvalue) + (Yvalue*Yvalue);
         Zvalue = sqrt(Zvalue);
         printf("Zvalue");
