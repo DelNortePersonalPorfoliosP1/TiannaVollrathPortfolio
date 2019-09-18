@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6D174BA5232BF6A0006FE18C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D174BA4232BF6A0006FE18C /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6D174B9F232BF6A0006FE18C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TiannaVollrathPortfolio; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D174BA4232BF6A0006FE18C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6DBEDB9C2332898E00A96063 /* Labs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Labs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				6DBEDB9C2332898E00A96063 /* Labs */,
-				6D174BA3232BF6A0006FE18C /* tiannavollrathlab1 */,
 				6D174BA2232BF6A0006FE18C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +48,6 @@
 				6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6D174BA3232BF6A0006FE18C /* tiannavollrathlab1 */ = {
-			isa = PBXGroup;
-			children = (
-				6D174BA4232BF6A0006FE18C /* main.c */,
-			);
-			path = tiannavollrathlab1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D174BA5232BF6A0006FE18C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
