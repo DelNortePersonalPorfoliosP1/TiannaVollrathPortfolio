@@ -11,18 +11,18 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    int main();
+    int main;
     
         double Xvalue,Yvalue,Zvalue ;
         //message
-        printf("Enter Xvalue");
+        puts("Enter Xvalue");
         scanf("%1lf", &Xvalue);
-        printf("Enter Yvalue");
+        puts("Enter Yvalue");
         scanf("%1lf", &Yvalue);
         Zvalue = (Xvalue*Xvalue) + (Yvalue*Yvalue);
-        Zvalue = sqrt(Zvalue);
-        printf("Zvalue");
-        return 0;
+    Zvalue = sqrt(Zvalue);
+        puts("Zvalue");
+
     
 
     return 0;
