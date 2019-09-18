@@ -23,9 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D174BA1232BF6A0006FE18C /* tiannavollrathlab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tiannavollrathlab1; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TiannaVollrathPortfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D174BA4232BF6A0006FE18C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		6D174BAB232BF6C2006FE18C /* Labs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Labs; path = ../../../../Labs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +49,7 @@
 		6D174BA2232BF6A0006FE18C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D174BA1232BF6A0006FE18C /* tiannavollrathlab1 */,
+				6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +57,6 @@
 		6D174BA3232BF6A0006FE18C /* tiannavollrathlab1 */ = {
 			isa = PBXGroup;
 			children = (
-				6D174BAB232BF6C2006FE18C /* Labs */,
 				6D174BA4232BF6A0006FE18C /* main.c */,
 			);
 			path = tiannavollrathlab1;
@@ -67,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D174BA0232BF6A0006FE18C /* tiannavollrathlab1 */ = {
+		6D174BA0232BF6A0006FE18C /* TiannaVollrathPortfolio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D174BA8232BF6A0006FE18C /* Build configuration list for PBXNativeTarget "tiannavollrathlab1" */;
+			buildConfigurationList = 6D174BA8232BF6A0006FE18C /* Build configuration list for PBXNativeTarget "TiannaVollrathPortfolio" */;
 			buildPhases = (
 				6D174B9D232BF6A0006FE18C /* Sources */,
 				6D174B9E232BF6A0006FE18C /* Frameworks */,
@@ -79,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = tiannavollrathlab1;
+			name = TiannaVollrathPortfolio;
 			productName = tiannavollrathlab1;
-			productReference = 6D174BA1232BF6A0006FE18C /* tiannavollrathlab1 */;
+			productReference = 6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D174B9C232BF6A0006FE18C /* Build configuration list for PBXProject "tiannavollrathlab1" */;
+			buildConfigurationList = 6D174B9C232BF6A0006FE18C /* Build configuration list for PBXProject "TiannaVollrathPortfolio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D174BA0232BF6A0006FE18C /* tiannavollrathlab1 */,
+				6D174BA0232BF6A0006FE18C /* TiannaVollrathPortfolio */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D174B9C232BF6A0006FE18C /* Build configuration list for PBXProject "tiannavollrathlab1" */ = {
+		6D174B9C232BF6A0006FE18C /* Build configuration list for PBXProject "TiannaVollrathPortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D174BA6232BF6A0006FE18C /* Debug */,
@@ -266,7 +264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D174BA8232BF6A0006FE18C /* Build configuration list for PBXNativeTarget "tiannavollrathlab1" */ = {
+		6D174BA8232BF6A0006FE18C /* Build configuration list for PBXNativeTarget "TiannaVollrathPortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D174BA9232BF6A0006FE18C /* Debug */,
