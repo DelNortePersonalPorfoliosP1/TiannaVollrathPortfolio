@@ -20,11 +20,9 @@
         Zvalue = (Xvalue*Xvalue) + (Yvalue*Yvalue);
         Zvalue = sqrt(Zvalue);
         printf("Zvalue");
-        return 0;
+
         
         
-        return 0;
-    }
 
     return 0;
 }
