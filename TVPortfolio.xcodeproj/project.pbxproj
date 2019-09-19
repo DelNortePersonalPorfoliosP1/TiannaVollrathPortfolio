@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DFF6CD32333E59500761211 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF6CD22333E59500761211 /* main.c */; };
-		6DFF6CD62333E62200761211 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF6CD52333E62200761211 /* pythagoras.c */; };
+		6DFF6CE42333EC5E00761211 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF6CE32333EC5E00761211 /* main.c */; };
+		6DFF6CEC2333ED9A00761211 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF6CEA2333ED9A00761211 /* pythagoras.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6D424BBA2333DFC300560BC8 /* CopyFiles */ = {
+		6DFF6CDE2333EC5E00761211 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D424BBC2333DFC300560BC8 /* TiannaVollrathPorfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TiannaVollrathPorfolio; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DFF6CD22333E59500761211 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		6DFF6CD42333E62200761211 /* pythagoras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pythagoras.h; path = ../../../LolaBulkinPortfolio/lolaportfolio/labs1/pythagoras.h; sourceTree = "<group>"; };
-		6DFF6CD52333E62200761211 /* pythagoras.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pythagoras.c; path = ../../../LolaBulkinPortfolio/lolaportfolio/labs1/pythagoras.c; sourceTree = "<group>"; };
+		6DFF6CE02333EC5E00761211 /* TVPortfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TVPortfolio; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFF6CE32333EC5E00761211 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6DFF6CEA2333ED9A00761211 /* pythagoras.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
+		6DFF6CEB2333ED9A00761211 /* pythagoras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D424BB92333DFC300560BC8 /* Frameworks */ = {
+		6DFF6CDD2333EC5E00761211 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D424BB32333DFC300560BC8 = {
+		6DFF6CD72333EC5E00761211 = {
 			isa = PBXGroup;
 			children = (
-				6D424BBE2333DFC300560BC8 /* TiannaVollrathPorfolio */,
-				6D424BBD2333DFC300560BC8 /* Products */,
+				6DFF6CE22333EC5E00761211 /* TVPortfolio */,
+				6DFF6CE12333EC5E00761211 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D424BBD2333DFC300560BC8 /* Products */ = {
+		6DFF6CE12333EC5E00761211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D424BBC2333DFC300560BC8 /* TiannaVollrathPorfolio */,
+				6DFF6CE02333EC5E00761211 /* TVPortfolio */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D424BBE2333DFC300560BC8 /* TiannaVollrathPorfolio */ = {
+		6DFF6CE22333EC5E00761211 /* TVPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				6DFF6CD52333E62200761211 /* pythagoras.c */,
-				6DFF6CD42333E62200761211 /* pythagoras.h */,
-				6DFF6CD22333E59500761211 /* main.c */,
+				6DFF6CEA2333ED9A00761211 /* pythagoras.c */,
+				6DFF6CEB2333ED9A00761211 /* pythagoras.h */,
+				6DFF6CE32333EC5E00761211 /* main.c */,
 			);
-			path = TiannaVollrathPorfolio;
+			path = TVPortfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D424BBB2333DFC300560BC8 /* TiannaVollrathPorfolio */ = {
+		6DFF6CDF2333EC5E00761211 /* TVPortfolio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D424BC32333DFC300560BC8 /* Build configuration list for PBXNativeTarget "TiannaVollrathPorfolio" */;
+			buildConfigurationList = 6DFF6CE72333EC5E00761211 /* Build configuration list for PBXNativeTarget "TVPortfolio" */;
 			buildPhases = (
-				6D424BB82333DFC300560BC8 /* Sources */,
-				6D424BB92333DFC300560BC8 /* Frameworks */,
-				6D424BBA2333DFC300560BC8 /* CopyFiles */,
+				6DFF6CDC2333EC5E00761211 /* Sources */,
+				6DFF6CDD2333EC5E00761211 /* Frameworks */,
+				6DFF6CDE2333EC5E00761211 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TiannaVollrathPorfolio;
-			productName = NewTiannaVollrathPorfolio;
-			productReference = 6D424BBC2333DFC300560BC8 /* TiannaVollrathPorfolio */;
+			name = TVPortfolio;
+			productName = TVPortfolio;
+			productReference = 6DFF6CE02333EC5E00761211 /* TVPortfolio */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D424BB42333DFC300560BC8 /* Project object */ = {
+		6DFF6CD82333EC5E00761211 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = "Vollrath, Tianna";
+				ORGANIZATIONNAME = T;
 				TargetAttributes = {
-					6D424BBB2333DFC300560BC8 = {
+					6DFF6CDF2333EC5E00761211 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 6D424BB72333DFC300560BC8 /* Build configuration list for PBXProject "TiannaVollrathPorfolio" */;
+			buildConfigurationList = 6DFF6CDB2333EC5E00761211 /* Build configuration list for PBXProject "TVPortfolio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6D424BB32333DFC300560BC8;
-			productRefGroup = 6D424BBD2333DFC300560BC8 /* Products */;
+			mainGroup = 6DFF6CD72333EC5E00761211;
+			productRefGroup = 6DFF6CE12333EC5E00761211 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D424BBB2333DFC300560BC8 /* TiannaVollrathPorfolio */,
+				6DFF6CDF2333EC5E00761211 /* TVPortfolio */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D424BB82333DFC300560BC8 /* Sources */ = {
+		6DFF6CDC2333EC5E00761211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DFF6CD32333E59500761211 /* main.c in Sources */,
-				6DFF6CD62333E62200761211 /* pythagoras.c in Sources */,
+				6DFF6CE42333EC5E00761211 /* main.c in Sources */,
+				6DFF6CEC2333ED9A00761211 /* pythagoras.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6D424BC12333DFC300560BC8 /* Debug */ = {
+		6DFF6CE52333EC5E00761211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		6D424BC22333DFC300560BC8 /* Release */ = {
+		6DFF6CE62333EC5E00761211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Release;
 		};
-		6D424BC42333DFC300560BC8 /* Debug */ = {
+		6DFF6CE82333EC5E00761211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		6D424BC52333DFC300560BC8 /* Release */ = {
+		6DFF6CE92333EC5E00761211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +261,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D424BB72333DFC300560BC8 /* Build configuration list for PBXProject "TiannaVollrathPorfolio" */ = {
+		6DFF6CDB2333EC5E00761211 /* Build configuration list for PBXProject "TVPortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D424BC12333DFC300560BC8 /* Debug */,
-				6D424BC22333DFC300560BC8 /* Release */,
+				6DFF6CE52333EC5E00761211 /* Debug */,
+				6DFF6CE62333EC5E00761211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D424BC32333DFC300560BC8 /* Build configuration list for PBXNativeTarget "TiannaVollrathPorfolio" */ = {
+		6DFF6CE72333EC5E00761211 /* Build configuration list for PBXNativeTarget "TVPortfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D424BC42333DFC300560BC8 /* Debug */,
-				6D424BC52333DFC300560BC8 /* Release */,
+				6DFF6CE82333EC5E00761211 /* Debug */,
+				6DFF6CE92333EC5E00761211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D424BB42333DFC300560BC8 /* Project object */;
+	rootObject = 6DFF6CD82333EC5E00761211 /* Project object */;
 }
