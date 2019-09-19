@@ -20,7 +20,9 @@
 
 /* Begin PBXFileReference section */
 		6D174BA1232BF6A0006FE18C /* TiannaVollrathPortfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TiannaVollrathPortfolio; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DBEDB9C2332898E00A96063 /* Labs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Labs; sourceTree = "<group>"; };
+		6DB798D42333D325001AADD6 /* TestProject */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TestProject; path = ../../TestProject/TestProject; sourceTree = "<group>"; };
+		6DB798D52333D351001AADD6 /* monkeycode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = monkeycode; path = ../../monkeycode/monkeycode; sourceTree = "<group>"; };
+		6DBEDB9C2332898E00A96063 /* TiannaVollrathLabs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TiannaVollrathLabs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,9 @@
 		6D174B98232BF6A0006FE18C = {
 			isa = PBXGroup;
 			children = (
-				6DBEDB9C2332898E00A96063 /* Labs */,
+				6DB798D52333D351001AADD6 /* monkeycode */,
+				6DB798D42333D325001AADD6 /* TestProject */,
+				6DBEDB9C2332898E00A96063 /* TiannaVollrathLabs */,
 				6D174BA2232BF6A0006FE18C /* Products */,
 			);
 			sourceTree = "<group>";
