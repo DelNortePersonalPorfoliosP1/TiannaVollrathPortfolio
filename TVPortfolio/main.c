@@ -13,5 +13,6 @@
 int main()
 {
     pythagoras();
+    secondscalculatorlab();
     return 0;
 }

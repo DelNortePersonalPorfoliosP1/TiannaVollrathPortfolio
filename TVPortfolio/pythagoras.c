@@ -13,9 +13,9 @@ int pythagoras(void) {
     double side1;
     double side2;
     printf("Hello, we will help you do pythagorean theorum!\n");
-    printf("what is side1 ");
+    printf("what is side1\n ");
     scanf("%lf",&side1);
-    printf("what is side2 ");
+    printf("what is side2\n ");
     scanf("%lf",&side2);
     
     // calculation
