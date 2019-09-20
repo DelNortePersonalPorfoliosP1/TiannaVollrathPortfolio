@@ -10,9 +10,11 @@
 
 #include "pythagoras.h"
 
-int main()
-{
-    pythagoras();
-    secondscalculatorlab();
-    return 0;
+
+int main () {
+
+pythagoras();
+secondscalculatorlab();
+
+return 0;
 }

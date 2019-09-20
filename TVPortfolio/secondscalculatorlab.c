@@ -7,13 +7,14 @@
 //
 
 #include "secondscalculatorlab.h"
-int secondscalculatorlab (void){
+int secondscalculatorlab (void) {
+    
     //input
     double seconds;
     printf("Enter the number of seconds desired\n");
     scanf("%lf", &seconds);
     
-    
+    //calculation
     
     
     return 0;

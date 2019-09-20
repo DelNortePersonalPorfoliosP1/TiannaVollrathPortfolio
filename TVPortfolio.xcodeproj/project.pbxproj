@@ -63,11 +63,11 @@
 		6DFF6CE22333EC5E00761211 /* TVPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				6DFF6CE32333EC5E00761211 /* main.c */,
 				6DFF6CEA2333ED9A00761211 /* pythagoras.c */,
 				6DFF6CEB2333ED9A00761211 /* pythagoras.h */,
-				6DFF6CE32333EC5E00761211 /* main.c */,
-				6D8E0A152335245E007C1848 /* secondscalculatorlab.h */,
 				6D8E0A162335245E007C1848 /* secondscalculatorlab.c */,
+				6D8E0A152335245E007C1848 /* secondscalculatorlab.h */,
 			);
 			path = TVPortfolio;
 			sourceTree = "<group>";
