@@ -15,7 +15,10 @@ int secondscalculatorlab (void) {
     scanf("%lf", &seconds);
     
     //calculation
+    seconds <= 0;
     
     
+    //output
+    printf("%f", seconds);
     return 0;
 }
